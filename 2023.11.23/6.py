@@ -1,7 +1,7 @@
-input1 = input("Введите координаты: ")
-input2 = input("Введите координаты: ")
+coordinates_1 = input("Введите координаты: ")
+coordinates_2 = input("Введите координаты: ")
 
-if ord(input1[0]) - 1 <= ord(input2[0]) <= ord(input1[0]) + 1 and int(input1[1]) - 1 <= int(input2[1]) <= int(input1[1]) + 1:
+if ord(coordinates_1[0]) - 1 <= ord(coordinates_2[0]) <= ord(coordinates_1[0]) + 1 and int(coordinates_1[1]) - 1 <= int(coordinates_2[1]) <= int(coordinates_1[1]) + 1:
     print('да')
 
 else:
