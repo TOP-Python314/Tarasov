@@ -1,8 +1,8 @@
 # ПЕРЕИМЕНОВАТЬ: переменным требуется давать имена по смыслу, так чтобы код можно было удобнее и быстрее читать — имена input_1, input_2 ничего не говорят о том, какие значения ассоциированы с данными переменными — вместо них стоило назвать переменные integer, fractional (целая часть числа, дробная часть числа)
-input_1 = input()
-input_2 = input()
+integer = input()
+fractional = input()
 
-num_mile = float(input_1 + '.' + input_2)
+num_mile = float(integer + '.' + fractional)
 num_km = round(num_mile * 1.61, 1)
 
 print(f'{num_mile} миль = {num_km} км')
