@@ -1,7 +1,7 @@
-input1 = input("Введите координаты: ")
-input2 = input("Введите координаты: ")
+coordinates_1 = input("Введите координаты: ")
+coordinates_2 = input("Введите координаты: ")
 
-if input1[0] == input2[0] or input1[1] == input2[1]:
+if coordinates_1[0] == coordinates_2[0] or coordinates_1[1] == coordinates_2[1]:
     print("да")
     
 else:
